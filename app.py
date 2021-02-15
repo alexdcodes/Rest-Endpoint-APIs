@@ -88,7 +88,7 @@ class Device(Resource):
             return {'data': data.to_dict()}, 200
         else:
             return {
-                       'message': f"'{args['placeID']}' user not found."
+                       'message': f"'{args['placeID']}' device not found."
                    }, 404
 
 
